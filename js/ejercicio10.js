@@ -1,5 +1,5 @@
 let i,j;
-let filas = Number(prompt("Introduzca el numero de filas"));
+let filas = Number(prompt("Introduzca un numero de filas"));
 let column = Number(prompt("Introduzca un numero de columnas"))
 let result = filas * column;
 document.write("<table border>");
