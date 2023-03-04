@@ -1,8 +1,8 @@
 document.write("<hr>");
 
-var i;
-var j = 500;
-var rep = 0;
+let i;
+let j = 500;
+let rep = 0;
 
 for (i = 1; i <= j; i++) {
   document.write(i);
