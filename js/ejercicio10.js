@@ -1,22 +1,22 @@
-let i,j;
+let i, j;
 let filas = Number(prompt("Introduzca un numero de filas"));
-let column = Number(prompt("Introduzca un numero de columnas"))
+let column = Number(prompt("Introduzca un numero de columnas"));
 let result = filas * column;
 document.write("<table border>");
-for(i = 0; i < filas; i++){
-    document.write("<tr>")
+for (i = 0; i < filas; i++) {
+  document.write("<tr>");
 
-    for(j = 0; j < column; j++){
-        document.write("<td>");
+  for (j = 0; j < column; j++) {
+    document.write("<td>");
 
-        document.write(result);
+    document.write(result);
 
-         result--
+    result--;
 
-        document.write("</td>")
-        }
+    document.write("</td>");
+  }
 
-        document.write("</tr>")     
-    }
-    
-    document.write("</table>")
+  document.write("</tr>");
+}
+
+document.write("</table>");
