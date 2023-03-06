@@ -1,15 +1,11 @@
 let conclusion = "";
 
-do{
-    let cadena = prompt("Introduzca una cadena");
-    if(conclusion == ""){
-
+do {
+  let cadena = prompt("Introduzca una cadena");
+  if (conclusion == "") {
     conclusion = conclusion + cadena;
- }
-
- else{
+  } else {
     conclusion = conclusion + "-" + cadena;
- }
-
-}while(confirm("¿Quiere seguir?"));
-document.write(conclusion)
+  }
+} while (confirm("¿Quiere seguir?"));
+document.write(conclusion);

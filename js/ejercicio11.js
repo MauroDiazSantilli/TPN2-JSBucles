@@ -7,14 +7,14 @@ let edad2 = Number(prompt("Edad 2"));
 let nombre3 = prompt("Nombre 3");
 let edad3 = Number(prompt("Edad 3"));
 
-let mayor = Math.max(edad1, edad2, edad3)
+let mayor = Math.max(edad1, edad2, edad3);
 
-if (mayor == edad1){
-    document.write("El mayor es: " + nombre1)
+if (mayor == edad1) {
+  document.write("El mayor es: " + nombre1);
 }
-if (mayor == edad2){
-    document.write("El mayor es: " + nombre2)
+if (mayor == edad2) {
+  document.write("El mayor es: " + nombre2);
 }
-if (mayor == edad3){
-    document.write("El mayor es: " + nombre3)
+if (mayor == edad3) {
+  document.write("El mayor es: " + nombre3);
 }
